@@ -1,5 +1,8 @@
 
 
+* {
+    outline: 2px solid red;
+}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -82,6 +85,7 @@ a {
 .hero .main {
     display: flex;
     justify-content: center;
+    gap: 20px;
 
     padding: 100px 0;
 
@@ -103,4 +107,22 @@ a {
 .hero img {
     width: 50%;
     height: auto;
+}
+
+/* Info section */
+.info {
+    padding-left: 500px;
+    padding-right: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info .content {
+    display: flex;
+}
+
+.info img {
+    width: 80%;
+    aspect-ratio: 1 / 1;
 }
