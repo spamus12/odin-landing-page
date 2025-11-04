@@ -1,6 +1,106 @@
 
 
-/* For debug purposes */
-* {
-    outline: 2px solid red;
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+a {
+    text-decoration-line: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Font styles */
+.f-hero-main {
+    font-size: 48px;
+    color: #F9FaF8;
+    font-weight: 900;
+}
+
+.f-hero-sec {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.f-hero-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.f-action {
+    font-size: 18px;
+    color: #3882F6;
+}
+
+.f-info-head {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.f-quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+/* Sign up button */
+#signup-button {
+    border-radius: 8px;
+    padding: 5px 20px;
+    color: white;
+    background-color: #3882F6;
+}
+
+
+/* Hero */
+.hero {
+    background-color: #1F2937;
+}
+
+.hero .header {
+    padding-left: 500px;
+    padding-right: 500px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .header ul {
+    display: flex;
+    gap: 30px;
+}
+
+.hero .main {
+    display: flex;
+    justify-content: center;
+
+    padding: 100px 0;
+
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.hero .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero button {
+    margin-right: auto;
+    border:#1F2937
+}
+
+.hero img {
+    width: 50%;
+    height: auto;
 }
