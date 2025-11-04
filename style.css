@@ -110,16 +110,22 @@ a {
 
 /* Info section */
 .info {
-    padding-left: 600px;
-    padding-right: 600px;
+    padding-left: 550px;
+    padding-right: 550px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 50px;
+}
+
+.info .header {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .info .content {
     display: flex;
-    gap: 25px;
+    gap: 50px;
 }
 
 .info img {
