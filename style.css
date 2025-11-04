@@ -121,7 +121,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .info .header {
@@ -151,4 +151,15 @@ a {
 /* Quote section */
 .quote {
     background-color: #E5E7EB;
+
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote .author {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: right;
 }
