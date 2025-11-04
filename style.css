@@ -1,9 +1,5 @@
 
 
-* {
-    outline: 2px solid red;
-}
-
 body {
     font-family: "Roboto", sans-serif;
     margin: 0px;
@@ -61,6 +57,7 @@ a {
     padding: 5px 20px;
     color: white;
     background-color: #3882F6;
+    border: 0;
 }
 
 
@@ -102,7 +99,6 @@ a {
 
 .hero button {
     margin-right: auto;
-    border:#1F2937
 }
 
 .hero img {
@@ -149,8 +145,8 @@ a {
 .quote {
     background-color: #E5E7EB;
 
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 550px;
+    padding-right: 550px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -159,4 +155,37 @@ a {
     font-size: 24px;
     font-weight: 600;
     text-align: right;
+}
+
+
+/* Call to action */
+.action {
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    color: white;
+}
+
+.action .modal {
+    background-color: #3882F6;
+    border-radius: 16px;
+
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal .header {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.modal #signup-button {
+    border: 2px solid white;
 }
